@@ -1,44 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="main.css">
-    <title>107RULES</title>
-</head>
-<body>
-    <header class="title">
-        <a href="/107RULE/" class="title_text">장승중 1학년 7반의 톡방 규칙</a>
-    </header>
-    <br><br><br><br><br><br><br>
+@font-face {
+    font-family: "yg-jalnan";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
-    <div class="기본">
-        말<br>
-        1. 개인적인 말, 쓸데없는 말 등 우리반 모두가 알지 않아도 되는 말은 잡담방이나 개인톡으로 하기
-        <br>
-        2. 욕과 비속어 사용을 금지🚫
-    </div>
-    <br>
-   <hr width="70%" align="center" color="#FFFFF3">
-   <br>
-   <div class="기본">
-    시간<br>
-    1. 오후 10시 이후 채팅방 종료(불가피한 일이 아니라면 사용 금지)
-    </div>
-    <br>
-    <hr width="70%" align="center" color="#FFFFF3">
-   <!-- <br>
-   <div class="기본">
-    말<br>
-    1. 개인적인 말, 쓸데없는 말 등 우리반 모두가 알지 않아도 되는 말은 잡담방이나 개인톡으로 하기
-    <br>
-    2. 욕과 비속어 사용을 금지🚫
-    </div>
-    <br>
-    <hr width="70%" align="center" color="#FFFFF3"> -->
-</body>
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color:#E0E3DA;
+}
 
+.title {
+  position: absolute;
+  height: 70.3281px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
 
-</html>
+  line-height: 60px;
+  vertical-align: middle;
+  text-align: center;
+
+  background-color: #FFFFF3;
+}
+
+.title_text {
+  color: #566270;
+  font-family: "yg-jalnan";
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.기본 {
+
+  position: relative;
+  border-radius: 20px;
+
+  color: #FFFFF3;
+  font-family: "BMJUA";
+  font-size: 20px;
+
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  
+  width: 70%;
+  margin: 0 auto;
+  background-color: #566270;
+}
