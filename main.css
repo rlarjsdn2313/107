@@ -27,11 +27,15 @@ body {
   line-height: 60px;
   vertical-align: middle;
   text-align: center;
+
+  background-color: #FFFFF3;
+}
+
+.title_text {
   color: #566270;
   font-family: "yg-jalnan";
   font-size: 25px;
-
-  background-color: #FFFFF3;
+  text-decoration: none;
 }
 
 .기본 {
