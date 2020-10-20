@@ -49,7 +49,6 @@ body {
   padding-bottom: 10px;
   
   width: 70%;
-
-  left: 11.5%;
+  margin: 0 auto;
   background-color: #566270;
 }
