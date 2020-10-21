@@ -20,14 +20,18 @@ font-style: normal;
   font-style: normal;
   }
 
+html {
+  overflow-x: hidden;
+}
 body {
 background-color:#E0E3DA;
+overflow-x: hidden;
 }
 
 .title {
 position: absolute;
 height: 70.3281px;
-width: 100%;
+width: 99.9999999999999999%;
 top: 0;
 right: 0;
 left: 0;
@@ -77,4 +81,24 @@ background-color: #566270;
 .알림장 {
   background-color: #346b31;
   font-family: "UhBeeSeulvely";
+}
+
+.up {
+  z-index: 2;
+  position: fixed;
+  right:13%;
+  bottom: 10%;
+  height: 30px;
+  width: 30px;
+
+}
+
+.go_to_rule {
+  z-index: 2;
+  position: fixed;
+  right:13%;
+  bottom: 15%;
+  height: 30px;
+  width: 30px;
+
 }
