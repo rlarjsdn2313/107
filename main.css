@@ -23,6 +23,7 @@ font-style: normal;
 html {
   overflow-x: hidden;
 }
+
 body {
 background-color:#E0E3DA;
 overflow-x: hidden;
@@ -36,11 +37,13 @@ top: 0;
 right: 0;
 left: 0;
 
-line-height: 60px;
+line-height: 65px;
 vertical-align: middle;
 text-align: center;
 
 background-color: #FFFFF3;
+
+box-shadow:5px 5px 3px 2px grey;
 }
 
 .title_text {
