@@ -86,7 +86,7 @@ background-color: #566270;
 .up {
   z-index: 2;
   position: fixed;
-  right:13%;
+  right:10%;
   bottom: 10%;
   height: 30px;
   width: 30px;
@@ -96,8 +96,8 @@ background-color: #566270;
 .go_to_rule {
   z-index: 2;
   position: fixed;
-  right:13%;
-  bottom: 15%;
+  right:10%;
+  bottom: 17%;
   height: 30px;
   width: 30px;
 
