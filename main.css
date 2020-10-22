@@ -120,3 +120,12 @@ background-color: #566270;
   padding-bottom: 10px;
   border-radius: 50%;
 }
+
+.picture {
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
