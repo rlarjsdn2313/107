@@ -106,8 +106,17 @@ background-color: #566270;
   z-index: 2;
   position: fixed;
   right:10%;
-  bottom: 110px;
+  bottom: 130px;
   height: 30px;
   width: 30px;
 
+}
+
+.botton {
+  background-color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
 }
