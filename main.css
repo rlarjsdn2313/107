@@ -122,10 +122,15 @@ background-color: #566270;
 }
 
 .picture {
-  width: 70%;
-  height: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
+  text-align: center;
+  left: 50%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #566270;
+  font-family: "BMJUA";
+  size: 50px;
+}
+
+.picture_div {
+  text-align: center;
 }
